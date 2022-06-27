@@ -6,11 +6,11 @@ Phase-1: Fecth the version from all the database technology websites: CLI based 
 
 Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
 
-Web Layout:
+**---->Web Layout:**
 ![image](https://user-images.githubusercontent.com/83164321/175918879-855a18eb-357b-4212-ba54-37ed829e4116.png)
 
-Responsive Layout:
-![image](https://user-images.githubusercontent.com/83164321/175920091-3b2b52df-a3aa-4b3c-80dc-2fc5727aca00.png)
+**---->Responsive Layout:**
+![image](https://user-images.githubusercontent.com/83164321/175920972-a139f97d-370c-4867-b97b-ac51440f2741.png)
 
 
 
