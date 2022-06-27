@@ -1,4 +1,4 @@
-# Version-Tracker-1.0
+# Version-Tracker-Responsive-Design
 
 A CLI Application which just for now tracks all the latest version of the database technology used in the market. Share the result in the command line only.
 
