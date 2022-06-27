@@ -10,7 +10,7 @@ Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
 ![image](https://user-images.githubusercontent.com/83164321/175918879-855a18eb-357b-4212-ba54-37ed829e4116.png)
 
 **---->Responsive Layout:**
-![image](https://user-images.githubusercontent.com/83164321/175920972-a139f97d-370c-4867-b97b-ac51440f2741.png)
+![image](https://user-images.githubusercontent.com/83164321/175921568-c7d980bf-6d7d-4867-b81f-4bd8a28dadc2.png)
 
 
 
