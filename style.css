@@ -2,95 +2,271 @@
     
     padding: 0px;
     margin: 0px;
-    background-color: white;
-    
+    /* font-size: 40px; */
+    background: white;
+
 
 }
 
 body{
-    height: 90vh;
-    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    font-family: 'Anek Malayalam', sans-serif;
     color: black;
-    padding: 0 30% 0 30%;
+
     /* border: 2px solid black; */
 }
 
-.nav{
-
-    display: block;
-    text-align: center;
-    
-    
-}
-
-.nav-bar{
-
-    
-    
-}
-
-.nav-bar ul{
-
+.nav-container{
     display: flex;
-    padding: 0 20% 0 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: flex-start;
+    /* background-color: white; */
+    /* width: 100vw; */
     
 }
 
-.nav-bar ul li{
 
-    display: inline-block;
-    text-align: center;
+
+.logo{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 9px;
+    margin: 20px; 
+}
+
+.nav-container ul{
+    display: flex;    
+    margin: 40px;
+    
+}
+
+.nav-container ul li{
+    
     list-style: none;
-    margin: 12px;
-    padding: 12px;
-    /* border: 2px solid black; */
+
 }
 
-.nav-bar ul li a{
+.nav-container ul li a{
 
-    font-size: 20px;
-    text-emphasis: none;
     text-decoration: none;
+    font-size: 28px;
     color: black;
+    padding: 40px;
 
+    
+    
 }
 
-.logo img{
-
-    height: 30%;
-    width: 30%;
+.hamburger{
+    display: none;
+    cursor: pointer;
+    margin-top: 50px;
 }
 
-.header{
+.bar{
 
     display: block;
-    text-align: center;
-    margin: 20px 0px 20px 0px;
-    /* border: 2px solid black; */
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+
 }
+
+
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+       /* width: 100%; */
+
+}
+
+
 
 
 .description{
-    
-    display: block;
-    text-align: center;
-    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+
     
 }
+
 
 .content{
 
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    /* border: 2px solid black; */
+    width: 500px;
+    height: 300px;
+    font-size: 20px;
+    margin-top: 80px;
+
+}
+
+
+.high-h1{
+
+    font-size: 70px;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 40px 1px #000000 ;
+}
+
+.high-h1:hover{
+
+    box-shadow: 0px 0px 40px 1px #f00202;
+
+}
+
+.img-hero{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+.logo-hero{
     
+    width: 70%;
+    border-radius: 9px;
+    
+    
+
+}
+
+.logo-hero:hover{
+
+    box-shadow: 0px 0px 40px 1px #f00202;
+
 }
 
 .footer{
-    
-    display: block;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
-    /* border: 2px solid black; */
-    margin: 10% 0px 0px 0px;
+    
+    
+    
 }
+
+.text-1{
+
+    width: 100vw;
+    font-size: 20px;
+    margin-top: 50px;
+    opacity: 0.7;
+    text-align: center;
+
+}
+
+.checkbox{
+
+    
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    -webkit-appearance: none;
+    position: relative;
+    outline: none;
+    
+    
+}
+
+.checkbox:before{
+
+    content: '';
+    height: 100px;
+    width: 50px;
+    background-color: rgb(244, 189, 33);
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+@media(max-width: 768px){
+
+    *{
+        background-color: black;
+        color: white;
+    }
+    
+    .hamburger{
+        display: block;
+        
+    }
+
+    .bar{
+        background-color: white;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: absolute;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        margin-top: 90px;
+        margin-left: 40px;
+        
+    }
+
+    .nav-link{
+        
+        background-color: white;
+    }
+    .nav-menu.active{
+
+        left: 0;
+    }
+
+    .content{
+
+        margin-top: 130px;
+    }
+
+    
+.header-container{
+
+    /* position: sticky; */
+}
+
+}
+
+
+
+
+
