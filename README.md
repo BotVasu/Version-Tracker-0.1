@@ -1,4 +1,4 @@
-# Version-Tracker-Responsive-Design
+# Version-Tracker-1.0
 
 A CLI Application which just for now tracks all the latest version of the database technology used in the market. Share the result in the command line only.
 
@@ -6,13 +6,8 @@ Phase-1: Fecth the version from all the database technology websites: CLI based 
 
 Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
 
-**---->Web Layout:**
-![image](https://user-images.githubusercontent.com/83164321/175918879-855a18eb-357b-4212-ba54-37ed829e4116.png)
 
-**---->Responsive Layout:**
-![image](https://user-images.githubusercontent.com/83164321/175921568-c7d980bf-6d7d-4867-b81f-4bd8a28dadc2.png)
-
-
+![image](https://user-images.githubusercontent.com/83164321/175473489-8baf63f2-8cdc-4175-bbf7-4c7a24072d50.png)
 
 
 
