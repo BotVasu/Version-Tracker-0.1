@@ -187,8 +187,7 @@ body{
     
     .hamburger{
         display: block;
-       
-        
+         
     }
 
     .bar{
@@ -233,6 +232,7 @@ body{
 
     .nav-link a{
         
+        display: block;
         background-color: white;
         color: white;
         /* margin: 0px;
