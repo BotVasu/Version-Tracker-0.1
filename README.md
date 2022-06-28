@@ -7,7 +7,7 @@ Phase-1: Fecth the version from all the database technology websites: CLI based 
 Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
 
 
-![image](https://user-images.githubusercontent.com/83164321/175473489-8baf63f2-8cdc-4175-bbf7-4c7a24072d50.png)
+![image](https://user-images.githubusercontent.com/83164321/176110382-570c7564-76a4-45a1-8894-162405d1f05e.png)
 
 
 
