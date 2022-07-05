@@ -11,4 +11,12 @@ Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
 
 
 
+![image](https://user-images.githubusercontent.com/83164321/177313600-93600ecf-29b9-4296-8c6f-0cc403d29041.png)
+
+
+
+![image](https://user-images.githubusercontent.com/83164321/177313644-7e660886-1a42-4d42-9460-11f0cde75bc5.png)
+
+
+
 Made with 💗 by @sid100harth and @botVasu
