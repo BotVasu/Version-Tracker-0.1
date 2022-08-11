@@ -15,7 +15,7 @@ Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
 
 
 
-![image](https://user-images.githubusercontent.com/83164321/177313644-7e660886-1a42-4d42-9460-11f0cde75bc5.png)
+![image](https://user-images.githubusercontent.com/83164321/184079410-31632d0f-7f69-4a5e-8bdb-f31e59b629fc.png)
 
 
 
