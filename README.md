@@ -4,7 +4,7 @@ A CLI Application which just for now tracks all the latest version of the databa
 
 Phase-1: Fecth the version from all the database technology websites: CLI based (✔) {Python}
 
-Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS}
+Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS & JAVASCRIPT}
 
 
 ![image](https://user-images.githubusercontent.com/83164321/175918879-855a18eb-357b-4212-ba54-37ed829e4116.png)
