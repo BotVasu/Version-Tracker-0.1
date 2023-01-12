@@ -11,4 +11,4 @@ Phase-2: A UI to beautify the process. (Under Progress) {HTML & CSS & JAVASCRIPT
 
 
 
-Made with 💗 by @sid100harth and @botVasu
+Made with 💗 by @botVasu
