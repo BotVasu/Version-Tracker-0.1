@@ -1,3 +1,5 @@
+# IMPORTING LIBRARIES
+
 from ast import Try
 from logging import exception
 from unicodedata import numeric
@@ -5,7 +7,7 @@ from lxml import html
 from pip import main
 import requests
 
-
+# Function to crawl the website and look for that version using the Xpath
 def oracle_v():
     
     try: 
@@ -200,7 +202,7 @@ def mysql_v():
         print("MySql didnt get crawled. Check Manually.")
 
 
-
+# Main Function that calls every other function in the program.
 def main():
     oracle = oracle_v()
     php = phpmyadmin_v()
